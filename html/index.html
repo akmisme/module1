@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="../img/logo.png" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="../js/js.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img class="heartbeat" src="../img/logo.png" /></a>
+      </div>
+      <div class="menu" id="menu">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about us</a></li>
+          <li><a href="product.html">product</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+      <div class="icon">
+        <ul>
+          <li>
+            <a href="login.html"><i class="fa fa-user"></i></a>
+            <span>Account</span>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-heart"></i></a>
+            <span>Wishlist</span>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            <span>Cart</span>
+          </li>
+          <li class="humbarger">
+            <i class="fa fa-bars"></i>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <h1 style="text-align: center">Home Page</h1>
+      <!-- Swiper -->
+      <div class="swiper mySwiper mywrapper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide myslider">
+            <img src="../img/watch(1).png" />
+          </div>
+          <div class="swiper-slide myslider">
+            <img src="../img/watch(2).png" />
+          </div>
+          <div class="swiper-slide myslider">
+            <img src="../img/watch(3).png" />
+          </div>
+          <div class="swiper-slide myslider">
+            <img src="../img/watch(4).png" />
+          </div>
+          <div class="swiper-slide myslider">
+            <img src="../img/watch(5).png" />
+          </div>
+          <div class="swiper-slide myslider">
+            <img src="../img/watch(6).png" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footerbox">
+        <h3>quick link</h3>
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa fa-arrow-right"></i> home</a>
+          </li>
+          <li>
+            <a href="about.html"><i class="fa fa-arrow-right"></i> about us</a>
+          </li>
+          <li>
+            <a href="product.html"><i class="fa fa-arrow-right"></i> product</a>
+          </li>
+          <li>
+            <a href="contact.html"
+              ><i class="fa fa-arrow-right"></i> contact us</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footerbox">
+        <h3>others</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><i class="fa fa-arrow-right"></i> term and conditions</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-arrow-right"></i> privacy and policy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="socialbox">
+        <h3>follow us</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank" class="fb"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://web.telegram.org/a/" target="_blank" class="tg"
+              ><i class="fab fa-telegram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.viber.com/en/" target="_blank" class="vb"
+              ><i class="fab fa-viber"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank" class="in"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/" target="_blank" class="tik"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>copyright &copy; 2024 | all right reserved</p>
+      <p>developed by akm</p>
+    </div>
+  </body>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>
